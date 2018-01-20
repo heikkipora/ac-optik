@@ -21,10 +21,13 @@
       padding-top: 1rem;
       padding-bottom: 1.5rem;
     }
-    .no-horizontal-padding {
-      padding-left: 0;
-      padding-right: 0;
+    @media (min-width: 1024px) {
+      .no-horizontal-padding {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
+
     .has-vertically-aligned-content {
       display: flex;
       flex-direction: column;
