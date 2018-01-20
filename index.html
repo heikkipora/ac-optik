@@ -21,18 +21,6 @@
       padding-top: 1rem;
       padding-bottom: 1.5rem;
     }
-    @media (max-width: 1023px) {
-      .custom-vertical-padding {
-        padding-top: 3rem;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .no-horizontal-padding {
-        padding-left: 0;
-        padding-right: 0;
-      }
-    }
     .has-vertically-aligned-content {
       display: flex;
       flex-direction: column;
@@ -41,7 +29,21 @@
     figure + .subtitle {
       padding-top: 0.5rem;
     }
-</style>
+    @media screen and (max-width: 1024px) {
+      .custom-vertical-padding {
+        padding-top: 3rem;
+      }
+      .level-item:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      .no-horizontal-padding {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
