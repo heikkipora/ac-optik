@@ -37,19 +37,19 @@
     <nav class="level">
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">Avoinna</p>
+          <p class="heading"><span class="icon"><i class="fas fa-clock"></i></span>Avoinna</p>
           <p class="title">ti-pe 11-17</p>
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">Osoite</p>
+          <p class="heading"><span class="icon"><i class="fas fa-home"></i></span>Osoite</p>
           <p class="title">Aleksanterinkatu 5, Loviisa</p>
         </div>
       </div>
       <div class="level-item has-text-centered">
         <div>
-          <p class="heading">Ota yhteyttä</p>
+          <p class="heading"><span class="icon"><i class="fas fa-phone"></i></span>Ota yhteyttä</p>
           <p class="title"><a href="tel:+358408650879">040 865 0879</a></p>
         </div>
       </div>
@@ -76,51 +76,61 @@
   </div>
 
   <nav class="navbar " role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <button class="button navbar-burger" data-target="navMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-        <div class="navbar-menu" id="navMenu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="/fi/silmalasit">Silmälasit</a>
-            <a class="navbar-item" href="/fi/aurinkolasit">Aurinkolasit</a>
-            <a class="navbar-item" href="/fi/piilolinssit">Piilolinssit</a>
-            <a class="navbar-item" href="/fi/apuvalineet">Apuvälineet</a>
-          </div>
-          <div class="navnbar-end">
-            <a class="navbar-item" href="/se/">På Svenska</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-      <section class="section">
     <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <div class="box">
-          <a class="button is-primary" href="https://nettiaika.fi/FennoLoviisa">Nettiajanvaraus</a>
+      <div class="navbar-brand">
+        <button class="button navbar-burger" data-target="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/fi/silmalasit">Silmälasit</a>
+          <a class="navbar-item" href="/fi/aurinkolasit">Aurinkolasit</a>
+          <a class="navbar-item" href="/fi/piilolinssit">Piilolinssit</a>
+          <a class="navbar-item" href="/fi/apuvalineet">Apuvälineet ja kuivan silmän tuotteet</a>
+          <a class="navbar-item" href="/fi/apuvalineet">Yritysesittely & yhteystiedot</a>
         </div>
-    </div>
-
-    <div class="level">
-        <div class="level-item has-text-centered">
-           Piilolasien sovitusoikeus
-        </div>
-        <div class="level-item has-text-centered">
-            Työterveyshuollon asiantuntijakoulutus
-        </div>
-        <div class="level-item has-text-centered">
-            Diagnostisten lääkeaineiden käyttöoikeus
+        <div class="navnbar-end">
+          <a class="navbar-item" href="/se/">På Svenska</a>
         </div>
       </div>
-  </section>
+    </div>
+  </nav>
 
+  <div class="container section">
+    <div class="tile is-ancestor">
+      <div class="tile is-3 is-parent">
+        <div class="tile is-child box">
+          <h2 class="title">Varaa aika kätevästi</h2>
+          <p class="subtitle">
+              <a class="button is-primary" href="https://nettiaika.fi/FennoLoviisa">Nettiajanvaraukseen</a>
+          </p>
+        </div>
+      </div>
+      <div class="tile is-3 is-parent">
+        <div class="tile is-child box">
+          <ul>
+            <li>Piilolasien sovitusoikeus</li>
+            <li>Työterveyshuollon asiantuntijakoulutus</li>
+            <li>Diagnostisten lääkeaineiden käyttöoikeus</li>
+          </ul>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <a href="https://fennooptiikka.fi"><img src="img/fenno-optiikka.png" width="20%" alt="Fenno Optiikka"/></a>
+        </p>
+        <p>
+          Olemme osa maanlaajuista kotimaista Fenno Optiikka -ketjua
+        </p>
+      </div>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>
