@@ -1,0 +1,80 @@
+/* SVG icons inlined from Font Awesome https://fontawesome.com */
+
+p.title a {
+  color: #95bc01;
+}
+p.title a:hover {
+  color: #363636;
+}
+p.title .small-title {
+  font-size: 15px;
+  font-weight: normal;
+  display: block;
+}
+nav.level {
+  align-items: start;
+}
+.button.is-primary, .hero.is-primary {
+  background-color:#95bc01; 
+  color: whitesmoke;
+}
+.button.is-primary:hover {
+  background-color:#363636; 
+}
+.custom-vertical-padding {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.has-vertically-aligned-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+figure + .subtitle {
+  padding-top: 0.5rem;
+}
+.footer.is-dark {
+  background: #363636 url(img/footer-bg.jpg) no-repeat;
+  background-size: cover;
+  color: #363636;
+}
+.box {
+  cursor: pointer;
+}
+.box:hover {
+  box-shadow: 0 2px 3px #95bc01, 0 0 0 1px #95bc01
+}
+.box:hover .title {
+  color: #95bc01;
+}
+.bg-pattern {
+  background: #363636 url(img/footer-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: -196px;
+}
+.hero-bg {
+  background-size: cover;
+  background-position: center center;
+}
+.some {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .custom-vertical-padding {
+    padding-top: 3rem;
+  }
+  .level-item:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  .bg-pattern {
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .no-horizontal-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

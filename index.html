@@ -10,89 +10,14 @@
   <meta property="og:title" content="AC Optik - optikkosi - din optiker">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://acoptik.fi">
-  <meta property="og:image" content="https://heikkipora.github.io/ac-optik/img/og-preview.jpg">
+  <meta property="og:image" content="https://heikkipora.github.io/ac-optik/assets/img/og-preview.jpg">
   <meta property="og:site_name" content="AC Optik - acoptik.fi">
   <meta property="og:description" content="Asenne aito, myös tieto ja taito">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet" type="text/css">
-  <link href="ext/bulma-carousel-1.0.11.min.css" rel="stylesheet" type="text/css">
-
-  <!-- SVG icons inlined from Font Awesome https://fontawesome.com -->
-
-  <style type="text/css">
-    p.title a {
-      color: #95bc01;
-    }
-    p.title a:hover {
-      color: #363636;
-    }
-    p.title .small-title {
-      font-size: 15px;
-      font-weight: normal;
-      display: block;
-    }
-    nav.level {
-      align-items: start;
-    }
-    .button.is-primary, .hero.is-primary {
-      background-color:#95bc01; 
-      color: whitesmoke;
-    }
-    .button.is-primary:hover {
-      background-color:#363636; 
-    }
-    .custom-vertical-padding {
-      padding-top: 1rem;
-      padding-bottom: 1.5rem;
-    }
-    .has-vertically-aligned-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    figure + .subtitle {
-      padding-top: 0.5rem;
-    }
-    .footer.is-dark {
-      background: #363636 url(img/footer-bg.jpg) no-repeat;
-      background-size: cover;
-      color: #363636;
-    }
-    .box {
-      cursor: pointer;
-    }
-    .box:hover {
-      box-shadow: 0 2px 3px #95bc01, 0 0 0 1px #95bc01
-    }
-    .box:hover .title {
-      color: #95bc01;
-    }
-    @media screen and (max-width: 1024px) {
-      .custom-vertical-padding {
-        padding-top: 3rem;
-      }
-      .level-item:not(:last-child) {
-        margin-bottom: 1.5rem;
-      }
-    }
-    @media screen and (min-width: 1024px) {
-      .no-horizontal-padding {
-        padding-left: 0;
-        padding-right: 0;
-      }
-    }
-    .bg-pattern {
-      background: #363636 url(img/footer-bg.jpg) no-repeat;
-      background-size: cover;
-      background-position: -196px;
-    }
-    .some {
-      width: 50px;
-      height: 50px;
-      margin: 10px;
-    }
-  </style>
+  <link href="assets/bulma-carousel-1.0.11.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/ac.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -109,13 +34,13 @@
             <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true" data-delay="5000">
               <div class='carousel-container'>
                 <div class='carousel-item has-background is-active'>
-                  <img class="is-background" src="img/slider/1.jpg" alt="" width="1920" height="768" />
+                  <img class="is-background" src="assets/img/slider/1.jpg" alt="" width="1920" height="768" />
                 </div>
                 <div class='carousel-item has-background'>
-                  <img class="is-background" src="img/slider/2.jpg" alt="" width="1920" height="768"/>
+                  <img class="is-background" src="assets/img/slider/2.jpg" alt="" width="1920" height="768"/>
                 </div>
                 <div class='carousel-item has-background'>
-                  <img class="is-background" src="img/slider/3.jpg" alt="" width="1920" height="768" />
+                  <img class="is-background" src="assets/img/slider/3.jpg" alt="" width="1920" height="768" />
                 </div>
               </div>
             </div>
@@ -179,13 +104,13 @@
             <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true" data-delay="5000">
               <div class='carousel-container'>
                 <div class='carousel-item has-background is-active'>
-                  <img class="is-background" src="img/slider/1.jpg" alt="" width="1920" height="768" />
+                  <img class="is-background" src="assets/img/slider/1.jpg" alt="" width="1920" height="768" />
                 </div>
                 <div class='carousel-item has-background'>
-                  <img class="is-background" src="img/slider/2.jpg" alt="" width="1920" height="768"/>
+                  <img class="is-background" src="assets/img/slider/2.jpg" alt="" width="1920" height="768"/>
                 </div>
                 <div class='carousel-item has-background'>
-                  <img class="is-background" src="img/slider/3.jpg" alt="" width="1920" height="768" />
+                  <img class="is-background" src="assets/img/slider/3.jpg" alt="" width="1920" height="768" />
                 </div>
               </div>
             </div>
@@ -199,15 +124,17 @@
     <div class="tile is-ancestor">
       <div class="tile is-3 is-parent">
         <div class="tile is-child box">
-          <h1 class="title">
-            Silmälasit
-          </h1>
-          <figure class="image">
-            <img src="img/kehykset.jpg" alt="Silmälasit"/>
-          </figure>
-          <p class="subtitle">
-            Tutustu silmälasiuutuuksiin ja edustamiimme merkkeihin
-          </p>
+          <a href="silmalasit.html">
+            <h1 class="title">
+              Silmälasit
+            </h1>
+            <figure class="image">
+              <img src="assets/img/silmalasit.jpg" alt="Silmälasit"/>
+            </figure>
+            <p class="subtitle">
+              Tutustu silmälasiuutuuksiin ja edustamiimme merkkeihin
+            </p>
+          </a>
         </div>
       </div>
       <div class="tile is-3 is-parent">
@@ -216,7 +143,7 @@
             Piilolinssit
           </h1>
           <figure class="image">
-            <img src="img/piilolinssit.jpg" alt="Piilolinssit"/>
+            <img src="assets/img/piilolinssit.jpg" alt="Piilolinssit"/>
           </figure>
           <p class="subtitle">
             Tutustu piilolinsseihin ja edustamiimme merkkeihin
@@ -229,7 +156,7 @@
             Aurinkolasit
           </h1>
           <figure class="image">
-            <img src="img/aurinkolasit.jpg" alt="Aurinkolasit"/>
+            <img src="assets/img/aurinkolasit.jpg" alt="Aurinkolasit"/>
           </figure>
           <p class="subtitle">
             Tutustu aurinkolasiuutuuksiin ja edustamiimme merkkeihin
@@ -242,7 +169,7 @@
             Muut tuotteet
           </h1>
           <figure class="image">
-            <img src="img/erikoislasit.jpg" alt="Muut tuotteet"/>
+            <img src="assets/img/erikoislasit.jpg" alt="Muut tuotteet"/>
           </figure>
           <p class="subtitle">
             Meiltä myös apuvälineet ja kuivan silmän tuotteet
@@ -258,7 +185,7 @@
         <h1 class="title">
           Oma optikkosi
         </h1>
-        <img src="img/henkilokunta.jpg" alt="Ann-Caroline Sinisalo" width="300px" style="float: left; margin-right: 1em; margin-bottom: 1em;"/>
+        <img src="assets/img/henkilokunta.jpg" alt="Ann-Caroline Sinisalo" width="300px" style="float: left; margin-right: 1em; margin-bottom: 1em;"/>
         <p>
           Nunc id arcu nec metus fermentum facilisis. Aenean pretium pharetra massa ut sagittis. Curabitur scelerisque volutpat nisl, non molestie mauris interdum non. Cras euismod libero urna, ac vulputate lorem euismod non. Cras non lectus neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et orci sed mauris imperdiet commodo ac nec nibh. Nam ultricies feugiat orci, nec accumsan mauris luctus eget.
         </p>
@@ -291,7 +218,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <a href="https://fennooptiikka.fi"><img src="img/logo/fenno-optiikka.png" width="20%" alt="Fenno Optiikka"/></a>
+          <a href="https://fennooptiikka.fi"><img src="assets/img/logo/fenno-optiikka.png" width="20%" alt="Fenno Optiikka"/></a>
         </p>
         <p>
           Olemme osa maanlaajuista kotimaista Fenno Optiikka -ketjua
@@ -299,14 +226,14 @@
       </div>
       <div class="content has-text-centered">
         <p>
-          <a href="https://www.facebook.com/acoptik"><img class="some" src="img/logo/fb.png" alt="FB" title="AC Optik Facebookissa"/></a>
-          <a href="https://www.instagram.com/acoptik"><img class="some" src="img/logo/ig.png" alt="IG" title="AC Optik Instagramissa"/></a>
-          <a href="https://www.ifind.fi"><img class="some" src="img/logo/ifind.png" alt="IG" title="AC Optik iFindissa"/></a>
+          <a href="https://www.facebook.com/acoptik"><img class="some" src="assets/img/logo/fb.png" alt="FB" title="AC Optik Facebookissa"/></a>
+          <a href="https://www.instagram.com/acoptik"><img class="some" src="assets/img/logo/ig.png" alt="IG" title="AC Optik Instagramissa"/></a>
+          <a href="https://www.ifind.fi"><img class="some" src="assets/img/logo/ifind.png" alt="IG" title="AC Optik iFindissa"/></a>
         </p>
       </div>
     </div>
   </footer>
 
-  <script src="ext/bulma-carousel-1.0.11.min.js"></script>
+  <script src="assets/bulma-carousel-1.0.11.min.js"></script>
 </body>
 </html>
