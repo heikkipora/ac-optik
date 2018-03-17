@@ -16,6 +16,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet" type="text/css">
+  <link href="ext/bulma-carousel-1.0.11.min.css" rel="stylesheet" type="text/css">
+
   <style type="text/css">
     p.title a {
       color: #95bc01;
@@ -97,9 +99,22 @@
             </figure>
           </div>
           <div class="column">
-            <figure class="image">
-              <img src="img/shop-1920x768.jpg" alt="AC Optik - myymälä"/>
-            </figure>
+            <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true" data-delay="5000">
+              <div class='carousel-container'>
+                <div class='carousel-item has-background is-active'>
+                  <img class="is-background" src="img/slider-1.jpg" alt="" width="1920" height="768" />
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-2.jpg" alt="" width="1920" height="768"/>
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-3.jpg" alt="" width="1920" height="768" />
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-4.jpg" alt="" width="1920" height="768" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -157,9 +172,22 @@
             </figure>
           </div>
           <div class="column">
-            <figure class="image">
-              <img src="img/shop-1920x768.jpg" alt="AC Optik - myymälä"/>
-            </figure>
+            <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true" data-delay="5000">
+              <div class='carousel-container'>
+                <div class='carousel-item has-background is-active'>
+                  <img class="is-background" src="img/slider-1.jpg" alt="" width="1920" height="768" />
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-2.jpg" alt="" width="1920" height="768"/>
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-3.jpg" alt="" width="1920" height="768" />
+                </div>
+                <div class='carousel-item has-background'>
+                  <img class="is-background" src="img/slider-4.jpg" alt="" width="1920" height="768" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -266,5 +294,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="ext/bulma-carousel-1.0.11.min.js"></script>
 </body>
 </html>
