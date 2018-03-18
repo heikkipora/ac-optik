@@ -96,3 +96,7 @@ figure + .subtitle {
 .tile .title, nav .title {
   font-weight: 400;
 }
+
+.hero-body.with-navi {
+  padding-top: 1rem;
+}
