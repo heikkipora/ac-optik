@@ -16,7 +16,6 @@ nav.level {
 }
 .button.is-primary, .hero.is-primary {
   background-color:#95bc01; 
-  color: whitesmoke;
 }
 .button.is-primary:hover {
   background-color:#363636; 
@@ -92,4 +91,8 @@ figure + .subtitle {
 
 .footer {
   padding-bottom: 2rem;
+}
+
+.tile .title, nav .title {
+  font-weight: 400;
 }
