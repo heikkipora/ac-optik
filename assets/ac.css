@@ -85,3 +85,11 @@ figure + .subtitle {
   text-decoration: underline;
   color: #3273dc !important;
 }
+
+.footer .fenno-logo {
+  width: 200px;
+}
+
+.footer {
+  padding-bottom: 2rem;
+}
