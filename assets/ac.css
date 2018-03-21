@@ -33,7 +33,7 @@ figure + .subtitle {
   padding-top: 0.5rem;
 }
 .footer.is-dark {
-  background: #363636 url(img/footer-bg.jpg) no-repeat;
+  background: #b9b9b9 url(img/footer-bg.jpg) no-repeat;
   background-size: cover;
   color: #363636;
 }
@@ -47,7 +47,7 @@ figure + .subtitle {
   color: #95bc01;
 }
 .bg-pattern {
-  background: #363636 url(img/footer-bg.jpg) no-repeat;
+  background: #b9b9b9 url(img/footer-bg.jpg) no-repeat;
   background-size: cover;
   background-position: -196px;
 }
