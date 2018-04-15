@@ -1,15 +1,18 @@
 /* SVG icons inlined from Font Awesome https://fontawesome.com */
 
-p.title a {
+p.title a, p.subtitle a {
   color: #95bc01;
 }
-p.title a:hover {
+p.title a:hover, p.subtitle a:hover {
   color: #363636;
 }
 p.title .small-title {
   font-size: 15px;
   font-weight: normal;
   display: block;
+}
+p.subtitle.lang {
+  margin-top: 1.2em;
 }
 nav.level {
   align-items: start;
