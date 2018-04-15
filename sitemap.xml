@@ -5,48 +5,64 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>http://acoptik.fi/</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
+  <lastmod>2018-04-15T11:57:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://acoptik.fi/sv/</loc>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>http://acoptik.fi/silmalasit.html</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acoptik.fi/piilolinssit.html</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
+  <lastmod>2018-04-15T11:57:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acoptik.fi/aurinkolasit.html</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
+  <lastmod>2018-04-15T11:57:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acoptik.fi/muut-tuotteet.html</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
+  <lastmod>2018-04-15T11:57:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acoptik.fi/acoptik-hinnasto.pdf</loc>
   <lastmod>2018-03-22T18:44:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>http://acoptik.fi/acoptik-silmalaakari.pdf</loc>
   <lastmod>2018-03-22T18:44:56+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://acoptik.fi/sv/glasogon.html</loc>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://acoptik.fi/index.html</loc>
-  <lastmod>2018-03-22T18:56:27+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>http://acoptik.fi/sv/kontaktlinser.html</loc>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>http://acoptik.fi/sv/solglasogon.html</loc>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://acoptik.fi/sv/andra-produkter.html</loc>
+  <lastmod>2018-04-15T11:57:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
